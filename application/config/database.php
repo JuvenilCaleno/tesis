@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'tesis01-mysql:3306',
+	'hostname' => 'jws-app-mysql:3306',
 	'username' => 'root',
 	'password' => 'root',
 	'database' => 'servidor_rest',
