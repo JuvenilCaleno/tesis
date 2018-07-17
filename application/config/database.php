@@ -75,10 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'jws-app-mysql:3306',
+	'hostname' => 'jws-app-mysql',
 	'username' => 'user',
 	'password' => 'password',
 	'database' => 'servidor_rest',
+	'port' => 3306,
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
