@@ -79,7 +79,6 @@ $db['default'] = array(
 	'username' => 'user',
 	'password' => 'password',
 	'database' => 'servidor_rest',
-	'port' => 3306,
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
