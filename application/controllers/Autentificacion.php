@@ -18,7 +18,7 @@ class Autentificacion extends CI_Controller {
         if ($persona) {
             $this->session->set_userdata('id_usuario', $persona->ID_USUARIO);
             $this->session->set_userdata('datos', $persona->NOMBRE_COMPLETO );
-            redirect("menu");
+            redirect("Menu");
         } else {
             $this->session->set_flashdata('mostrarMensajeConfirmacion', TRUE);
             redirect("");
