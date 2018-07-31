@@ -9,7 +9,7 @@
 /**
  * Description of Parametros
  *
- * @author José Luis
+ * @author david
  */
 class Parametros extends CI_Controller {
 
