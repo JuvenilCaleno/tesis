@@ -9,7 +9,7 @@
 /**
  * Description of Generales
  *
- * @author José Luis
+ * @author david
  */
 class Generales extends CI_Controller {
 
