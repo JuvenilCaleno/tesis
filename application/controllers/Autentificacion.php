@@ -14,10 +14,10 @@ class Autentificacion extends CI_Controller {
     }
 
     public function validar() {
-        $persona = $this->usuarios_model->buscar_autentificacion($_POST['usuario'], md5($_POST['clave']));
+        $persona = $this->usuarios_model->buscar_autentificacion($_POST['usuario'], $_POST['clave']);
         if ($persona) {
-            $this->session->set_userdata('id_usuario', $persona->ID_USUARIO);
-            $this->session->set_userdata('datos', $persona->NOMBRE_COMPLETO );
+            $this->session->set_userdata('id_usuario', $persona->id);
+            $this->session->set_userdata('datos', $persona->usuario);
             redirect("Menu");
         } else {
             $this->session->set_flashdata('mostrarMensajeConfirmacion', TRUE);
