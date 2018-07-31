@@ -9,7 +9,7 @@
 /**
  * Description of Campeonato
  *
- * @author José Luis
+ * @author david
  */
 class Campeonatos extends CI_Controller {
 
